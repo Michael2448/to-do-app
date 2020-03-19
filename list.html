@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Список дел</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/list.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<main>
+		<div class="fixed-container">
+			<h1 class="visually-hidden">Основы JavaScript, урок 4</h1>
+			<section class="column-left">
+				<h2 class="columns-titles">Список дел:</h2>
+				<p class="absense-deals-text js-absenseDealsText">Список пуст...</p>
+				<ul class="deals-list js-dealsList"></ul>
+			</section>
+
+			<section class="column-right">
+				<h2 class="columns-titles">Добавить новое дело</h2>
+
+				<div class="white-block-for-new-deal">
+					<form method="post" action="" class="send-form js-sendForm">
+						<label class="new-deal-titles"><span class="new-deal-titles-text">Название</span>
+							<input name="deal-title" class="new-deal-title-inputted-text js-newDealTitleInputtedText" type="text">
+						</label>
+
+						<label class="new-deal-titles"><span class="new-deal-titles-text">Описание</span>
+							<textarea name="deal-content" class="new-deal-content-inputted-text js-newDealContentInputtedText"></textarea>
+						</label>
+
+						<button class="send-button" type="submit" name="add-deal">Добавить дело</button>
+					</form>
+				</div>
+			</section>
+		</div>
+	</main>
+</body>
+</html>
+
+

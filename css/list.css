@@ -1,0 +1,123 @@
+.column-left {
+	float: left;
+}
+.column-right {
+	float: right;
+}
+.columns-titles {
+	margin: 65px 0 34px 0;
+
+	font-size: 21px;
+	font-weight: normal;
+}
+.absense-deals-text {
+	margin-top: 83px;
+	color: #8993ad;
+}
+.white-block-for-new-deal {
+	padding: 48px 40px 56px;
+
+	background-color: #ffffff;
+	width: 470px;
+}
+.new-deal-titles {
+	font-size: 14px;
+	color: #8993ad;
+}
+.new-deal-titles::before {
+	content: "* ";
+}
+.new-deal-titles-text {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.new-deal-title-inputted-text {
+	padding: 10px;
+	margin-bottom: 28px;
+
+	width: 390px;
+	background-color: #f9f9f9;
+	border: 1px solid #ebebeb;
+}
+.new-deal-content-inputted-text {
+	padding: 10px;
+	margin-bottom: 30px;
+
+	width: 390px;
+	min-height: 230px;
+	background-color: #f9f9f9;
+	border: 1px solid #ebebeb;
+}
+.send-button {
+	padding: 15px 45px;
+
+	color: #ffffff;
+	background-color: #2174fd;
+	border: none;
+}
+.header {
+	padding: 15px 20px 30px;
+	position: relative;
+	border-bottom: 1px solid #f5f5f5;
+}
+.deals-list {
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+.deals-list-item {
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	width: 470px;
+}
+.deals-list-item-titles {
+	margin: 0;
+	padding: 0;
+
+	font-size: 16px;
+	font-weight: normal;
+	
+	float: left;
+}
+.deals-list-item-content {
+	margin: 0;
+	padding: 5px 20px 20px 20px;
+
+	font-size: 14px;
+	color: #8993ad;
+	width: 470px;
+}
+.delete-deal-button {
+	margin-left: 20px;
+	padding: 11px;
+
+	background-image: url("../img/clear-button.png");
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	background-position: center;
+	height: 12px;
+	border: none;
+	float: left;
+}
+.turn-deal-button {
+	margin-top: 1px;
+	padding: 11px;
+
+	background-image: url("../img/arrow.png");
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	background-position: center;
+	height: 6px;
+	width: 6px;
+	border: none;
+	float: right;
+	transition: 1.2s linear;
+}
+.rotate {
+	transform: rotate(90deg);
+}
+
+
+
+
